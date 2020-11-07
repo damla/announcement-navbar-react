@@ -14,10 +14,6 @@ export default function HomePage() {
           <Link to="mailto:me@damlakoksal.com">me@damlakoksal.com</Link>
           <Link to="tel:+902122222222">+90 (212) 222 22 22</Link>
         </Announcement>
-        <Announcement>
-          <Link to="mailto:me@damlakoksal.com">me@damlakoksal.com</Link>
-          <Link to="tel:+902122222222">+90 (212) 222 22 22</Link>
-        </Announcement>
         <NavBar />
       </div>
       <div className="container pink"></div>
