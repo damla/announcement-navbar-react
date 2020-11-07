@@ -1,12 +1,32 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 
 import "./navbar.styles.scss";
 import logo from "../../logo.svg";
 
 export default function NavBar() {
+  const [scrolled, setScrolled] = React.useState(false);
+
+  const handleScroll = () => {
+    const offset = window.scrollY;
+    if (offset > 1) {
+      setScrolled(true);
+    } else {
+      setScrolled(false);
+    }
+  };
+
+  useEffect(() => {
+    window.addEventListener("scroll", handleScroll);
+  });
+
+  let navbarClasses = ["navbar-container"];
+  if (scrolled) {
+    navbarClasses.push("scrolled");
+  }
+
   return (
-    <div className="navbar-container">
+    <nav className={navbarClasses.join(" ")}>
       <div className="link-container left">
         <Link to="/">test</Link>
         <Link to="/">test</Link>
@@ -18,6 +38,6 @@ export default function NavBar() {
         <Link to="/">test</Link>
         <Link to="/">test</Link>
       </div>
-    </div>
+    </nav>
   );
 }
