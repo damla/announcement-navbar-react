@@ -1,7 +1,22 @@
 .navbar-container {
   display: flex;
-  flex-direction: row-reverse;
+  justify-content: center;
   align-items: center;
-  padding: 20px 25px 10px 25px;
-  background-color: aqua;
+  padding: 10px 1.5rem 10px 1.5rem;
+  border-bottom: 1px solid black;
+
+  .link-container {
+    width: 33vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &.left {
+      padding-right: 3rem;
+    }
+
+    &.right {
+      padding-left: 3rem;
+    }
+  }
 }
