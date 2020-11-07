@@ -1,15 +1,52 @@
+@mixin white-bg {
+  background-color: white;
+  border-bottom: solid 1px #efefee;
+  -webkit-box-shadow: 0 4px 8px -8px black;
+  -moz-box-shadow: 0 4px 8px -8px black;
+  box-shadow: 0 4px 8px -8px black;
+}
+
 .navbar-container {
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 10px 1.5rem 10px 1.5rem;
-  border-bottom: 1px solid black;
+  align-items: center;
+  z-index: 99;
+  position: fixed;
+  top: calc(0.4rem + 30px);
+  width: 100%;
+  transition: all 0.1s ease-in;
+
+  .logo {
+    &:hover {
+      opacity: 0.7;
+    }
+  }
+
+  &.scrolled {
+    @include white-bg;
+    padding: 15px 25px 10px 25px;
+    top: 0;
+  }
+
+  &:hover {
+    @include white-bg;
+  }
 
   .link-container {
     width: 33vw;
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+    a {
+      font-weight: 600;
+
+      &:hover {
+        opacity: 0.7;
+      }
+    }
 
     &.left {
       padding-right: 3rem;
