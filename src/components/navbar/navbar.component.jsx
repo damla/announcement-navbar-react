@@ -21,11 +21,6 @@ export default function NavBar() {
     window.addEventListener("scroll", handleScroll);
   });
 
-  // let navbarClasses = ["navbar-container"];
-  // if (scrolled) {
-  //   navbarClasses.push("scrolled");
-  // }
-
   return (
     <nav className={classNames("navbar-container", { scrolled: scrolled })}>
       <div className="link-container left">
