@@ -1,9 +1,8 @@
 # Announcement Bar and Sticky Navigation Bar
-
-- This repository is created to demonstrate how to use sticky navigation bar while you have announcement bar on it. The result is shown in http://damlakoksal.github.io/announcement-navbar-react website.
-
 ![GithubLicence](https://img.shields.io/github/license/damlakoksal/announcement-navbar-react)
 ![GithubTag](https://img.shields.io/github/v/tag/damlakoksal/announcement-navbar-react)
+
+   This repository is created to demonstrate how to use sticky navigation bar while you have announcement bar on it. The result is shown in http://damlakoksal.github.io/announcement-navbar-react website.
 
 <img src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/react.svg" alt="reactjs" height="15" width="15" />&nbsp;[React](http://reactjs.org) - React, Hooks, React Router(DOM)
 
