@@ -1,4 +1,6 @@
-# Announcement Bar and Sticky Navigation Bar Components
+# Announcement Bar and Sticky Navigation Bar
+
+- This repository is created to demonstrate how to use sticky navigation bar while you have announcement bar on it. The result is shown in http://damlakoksal.github.io/announcement-navbar-react website.
 
 ![GithubLicence](https://img.shields.io/github/license/damlakoksal/announcement-navbar-react)
 ![GithubTag](https://img.shields.io/github/v/tag/damlakoksal/announcement-navbar-react)
