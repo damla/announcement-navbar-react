@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 
 import "./navbar.styles.scss";
 import logo from "../../logo.svg";
+const classNames = require("classnames");
 
 export default function NavBar() {
   const [scrolled, setScrolled] = React.useState(false);
@@ -20,13 +21,13 @@ export default function NavBar() {
     window.addEventListener("scroll", handleScroll);
   });
 
-  let navbarClasses = ["navbar-container"];
-  if (scrolled) {
-    navbarClasses.push("scrolled");
-  }
+  // let navbarClasses = ["navbar-container"];
+  // if (scrolled) {
+  //   navbarClasses.push("scrolled");
+  // }
 
   return (
-    <nav className={navbarClasses.join(" ")}>
+    <nav className={classNames("navbar-container", { scrolled: scrolled })}>
       <div className="link-container left">
         <Link to="/">test</Link>
         <Link to="/">test</Link>

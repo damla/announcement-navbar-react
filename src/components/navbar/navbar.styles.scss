@@ -1,6 +1,5 @@
 @mixin white-bg {
   background-color: white;
-  border-bottom: solid 1px #efefee;
   -webkit-box-shadow: 0 4px 8px -8px black;
   -moz-box-shadow: 0 4px 8px -8px black;
   box-shadow: 0 4px 8px -8px black;
@@ -13,8 +12,8 @@
   padding: 10px 1.5rem 10px 1.5rem;
   align-items: center;
   z-index: 9;
-  position: fixed;
   top: calc(1 * (0.4rem + 30px));
+  position: fixed;
   width: 100%;
   transition: all 0.1s ease-in;
 
