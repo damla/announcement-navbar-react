@@ -8,7 +8,6 @@ This repository is created to demonstrate how to use sticky navigation bar while
 
 <img src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/sass.svg" alt="sass" height="15" width="15" />&nbsp;[Sass](https://sass-lang.com) - Used CSS with super powers
 
-<img src="https://necolas.github.io/normalize.css/logo.svg" alt="normalizecss" height="15" width="15" />&nbsp;[Normalize.css](https://necolas.github.io/normalize.css/) - Customized Normalize.css
 
 ### Installing
 
