@@ -2,7 +2,7 @@
   "name": "announcement-and-navbar",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://damlakoksal.github.io/announcement-navbar-react",
+  "homepage": "http://damla.github.io/announcement-navbar-react",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
