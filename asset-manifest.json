@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/announcement-navbar-react/static/css/main.2aa0aec0.chunk.css",
+    "main.css": "/announcement-navbar-react/static/css/main.ba868f2a.chunk.css",
     "main.js": "/announcement-navbar-react/static/js/main.21f5e75d.chunk.js",
     "main.js.map": "/announcement-navbar-react/static/js/main.21f5e75d.chunk.js.map",
     "runtime-main.js": "/announcement-navbar-react/static/js/runtime-main.c620e257.js",
@@ -10,14 +10,14 @@
     "static/js/3.9652b3f0.chunk.js": "/announcement-navbar-react/static/js/3.9652b3f0.chunk.js",
     "static/js/3.9652b3f0.chunk.js.map": "/announcement-navbar-react/static/js/3.9652b3f0.chunk.js.map",
     "index.html": "/announcement-navbar-react/index.html",
-    "static/css/main.2aa0aec0.chunk.css.map": "/announcement-navbar-react/static/css/main.2aa0aec0.chunk.css.map",
+    "static/css/main.ba868f2a.chunk.css.map": "/announcement-navbar-react/static/css/main.ba868f2a.chunk.css.map",
     "static/js/2.ad07bea0.chunk.js.LICENSE.txt": "/announcement-navbar-react/static/js/2.ad07bea0.chunk.js.LICENSE.txt",
     "static/media/logo.103b5fa1.svg": "/announcement-navbar-react/static/media/logo.103b5fa1.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.c620e257.js",
     "static/js/2.ad07bea0.chunk.js",
-    "static/css/main.2aa0aec0.chunk.css",
+    "static/css/main.ba868f2a.chunk.css",
     "static/js/main.21f5e75d.chunk.js"
   ]
 }
