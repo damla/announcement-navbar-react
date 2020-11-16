@@ -21,15 +21,13 @@ src
    |   |-- announcement
    |   |   |-- announcement.component.jsx
    |   |   |-- announcement.styles.scss
+   |   |
    |   |-- navbar
    |   |   |-- navbar.component.jsx
    |   |   |-- navbar.styles.scss
    |
-   |-- pages
-   |   |-- homepage.component.jsx
-   |   |-- homepage.styles.scss
-   |
-   |-- App.jsx
+   |-- App.jsx   
+   |-- App.scss
    |-- App.test.js
    |-- index.css
    |-- index.js
